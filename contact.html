@@ -6,39 +6,121 @@
     <title>Contact</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel= "stylesheet" href= "style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!--adding a form-->
-    <form>
-        <div class="form-group">
-          <label for="exampleFormControlInput1">Email address</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-        </div>
-        <div class="form-group">
-          <label for="exampleFormControlSelect1">Example select</label>
-          <select class="form-control" id="exampleFormControlSelect1">
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <label for="exampleFormControlSelect2">Example multiple select</label>
-          <select multiple class="form-control" id="exampleFormControlSelect2">
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <label for="exampleFormControlTextarea1">Example textarea</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
-      </form>
+  
+<!--Navgiation Bar source https://getbootstrap.com/docs/4.5/components/navbar/-->
+<div class= "navBar">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Portfolio </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">About Me </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="projects.html">Projects</a>
+        </li> 
+
+        <li class="nav-item active">
+          <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+        </li>
+      
+               
+      </ul>
+    </div>
+  </nav>
+      </div>
+<!--contact info-->
+<section class= "contactPage">
+
+  <h1 class="giantJackie">Get in touch</h1>
+        <!-- Jumbotron-->
+        <div class="container">
+         <div class="row">
+           <div class="col-1">
+           </div>
+
+           <!--this where the contact information is-->
+           <div class="col-10">
+
+            <!--centered jumbotron-->
+            <div class="jumbotronContact">
+                <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <p class="emailIcon">
+                      <svg width="7em" height="7em" viewBox="0 0 16 16" class="bi bi-envelope-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
+                    </svg> 
+                  </p>
+                  </div>
+          
+           
+<!--sending a message form-->
+                <div class= "contatUs"></div>
+                  <div class="col">
+                    <form>
+                      <div class="form-group">
+                        <label for="exampleFormControlInput1">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                      </div>
+                      <div class="form-group">
+                        <label for="exampleFormControlInput1">Name</label>
+                        <input type="form-control" class="form-control" ">
+                      </div>
+                      <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea><br>
+                        <input type="submit" value="Send">
+                      </div>
+                    </form>
+                  </div>
+                  </div>
+                
+
+
+             </div>
+           </div>
+       
+           </div>
+           <div class="col-1">
+           <!--adding blanks to the jumbotron-->
+           </div>
+         </div>
+       </div>
+
+   
+ </section>
+ <footer>
+  Author: Jaquelin Galindo 
+</footer>
+</body>
+</html>
+
+<!--<h2>Send e-mail to someone@example.com:</h2>
+
+<form action="mailto:someone@example.com" method="post" enctype="text/plain">
+Name:<br>
+<input type="text" name="name"><br>
+E-mail:<br>
+<input type="text" name="mail"><br>
+Comment:<br>
+<input type="text" name="comment" size="50"><br><br>
+<input type="submit" value="Send">
+<input type="reset" value="Reset">
+</form>
 
 </body>
 </html>
+-->

@@ -1,11 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JaquelinGalindo</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel= "stylesheet" href= "style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
 </head>
 <body>
+
+<!--Navgiation Bar source https://getbootstrap.com/docs/4.5/components/navbar/-->
+<div class= "navBar">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Portfolio </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
   
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>      
+
+        <li class="nav-item active">
+          <a class="nav-link" href="portfolio.html">About Me <span class="sr-only">(current)</span></a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="projects.html">Projects</a>
+        </li>  
+
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+        
+
+        
+      </ul>
+      
+    </div>
+  </nav>
+      </div>
+
+    <!-- Jumbotron-->
+
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4"> Jaquelin Galindo</h1>
+        <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+      </div>
+    </div>
+
+  <!--Favorite Quote -->
+
+  <div class="card">
+    <div class="card-header">
+      Quote
+    </div>
+    <div class="card-body">
+      <blockquote class="blockquote mb-0">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+        <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+      </blockquote>
+    </div>
+  </div>
+
+
+<!--First set of cards -->
+<div class="row">
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Education</h5>
+        <p class="card-text">
+        
+          <strong>College of Saint Benedict</strong><br>
+          37 South College Avenue<br>
+          St. Joseph, Minnesota 56374<br>
+          Major: Economics
+          
+
+          </p>
+        <a href="https://www.csbsju.edu/" class="btn btn-primary" target= ".blank">College of Saint Benedict</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">LinkedIn Profile</h5>
+        <p class="card-text">
+          HTML, CSS, and Bootstrap<br>
+          JavaScript<br>
+          Webdriver IO: Cucumber <br>
+          API <br>
+          Microsoft Office: Excel 
+        </p>       
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="card mb-3">
+  <img src="#" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+  </div>
+
+<footer>
+  Author: Jaquelin Galindo 
+</footer>
 </body>
 </html>

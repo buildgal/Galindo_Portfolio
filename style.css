@@ -1,0 +1,60 @@
+
+
+.homePage, .techProjects, .contactPage{
+    background-color: rgba(248, 176, 150, 0.877);
+    
+    
+    
+}
+
+.giantJackie, .display-4{
+    color:wheat;
+    font-size: 135px;
+    text-align:center;
+    font-family: 'Secular One', sans-serif;
+    opacity: 50%;
+    font-stretch: expanded;
+    
+}
+
+.jumbotron{
+    background-color: rgba(82, 204, 204, 0.836);
+    color:white;  
+    font-size: 50px;
+    
+}
+
+.lead{
+    font-size: 40px;
+    margin-left:50%;
+    
+}
+
+.headshot{
+    width:300px;
+    height:425px;
+    margin-left: 7%;
+    margin-bottom: 50px;
+    float:left;
+}
+
+footer{
+    color:rgb(58, 58, 158);
+    text-align:center;
+    background-color: burlywood;
+}
+
+.jumbotronContact{
+    background-color: rgba(82, 204, 204, 0.836);
+    color:white;  
+    font-size: 25px;
+  
+}
+
+.submit{
+    font-size: 10px;
+}
+
+.emailIcon{
+    padding:33%;
+}
