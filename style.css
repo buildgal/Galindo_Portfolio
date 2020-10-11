@@ -1,6 +1,6 @@
 
 
-.homePage, .techProjects, .contactPage{
+.homePage, .techProjects, .contactPage, .aboutBackground{
     background-color: rgba(248, 176, 150, 0.877);
     
     
@@ -26,6 +26,12 @@
 
 .lead{
     font-size: 40px;
+    margin-left:50%;
+    
+}
+
+.leadSize{
+    font-size: 30px;
     margin-left:50%;
     
 }
@@ -67,3 +73,27 @@ footer{
     text-align: center;
 
 }
+
+.space{
+    padding: 150px;
+}
+
+.card-group{
+    margin: 20px;
+    background-color: rgba(82, 204, 204, 0.836);   
+}
+
+#backgroundCard{
+    margin: 20px;
+    color:white;  
+    font-size: 25px;
+    background-color: rgba(82, 204, 204, 0.836);
+
+}
+
+#bikeCard, #speaking, #photos{
+    background-color: rgba(82, 204, 204, 0.836);
+    color:white;  
+    font-size: 20px;
+}
+
