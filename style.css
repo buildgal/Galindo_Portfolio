@@ -1,6 +1,6 @@
 
 
-.homePage, .techProjects, .contactPage, .aboutBackground{
+.homePage, .techProjects, .contactPage, .aboutBackground, .card-deck{
     background-color: rgba(248, 176, 150, 0.877);
     
     
@@ -78,22 +78,18 @@ footer{
     padding: 150px;
 }
 
-.card-group{
-    margin: 20px;
-    background-color: rgba(82, 204, 204, 0.836);   
+.card-group, .card-deck{
+    margin: 20px; 
 }
 
 #backgroundCard{
     margin: 20px;
-    color:white;  
-    font-size: 25px;
-    background-color: rgba(82, 204, 204, 0.836);
 
+    font-size: 25px;
+    
 }
 
 #bikeCard, #speaking, #photos{
-    background-color: rgba(82, 204, 204, 0.836);
-    color:white;  
-    font-size: 20px;
+        font-size: 20px;
+   
 }
-
