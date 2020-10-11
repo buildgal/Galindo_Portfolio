@@ -58,3 +58,12 @@ footer{
 .emailIcon{
     padding:33%;
 }
+
+.resume{
+    background-color: cornsilk;
+    font-size: 14px;
+    color:rgb(82, 35, 35);
+    margin-left:50%;
+    text-align: center;
+
+}
