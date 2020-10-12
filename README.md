@@ -17,4 +17,4 @@ On this page I provide the user a form to enter a message. Currently the submit 
 
 ## Live Links 
 
-Galindo_Portfolio https://github.com/buildgal/Galindo_Portfolio
+Galindo_Portfolio https://buildgal.github.io/Galindo_Portfolio/
