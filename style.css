@@ -93,3 +93,10 @@ footer{
         font-size: 20px;
    
 }
+.email{
+    font-size: 20px;
+    display: block;
+    margin-left: 50%;
+    text-align: center;
+    
+}
