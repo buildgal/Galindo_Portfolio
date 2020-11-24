@@ -36,7 +36,7 @@
     
 }
 
-.headshot{
+.img-responsive{
     width:300px;
     height:425px;
     margin-left: 7%;
@@ -100,3 +100,33 @@ footer{
     text-align: center;
     
 }
+
+    @media screen and (max-width: 700px) {
+        body {
+            background-color: rgba(248, 176, 150, 0.877);
+            
+        }
+        .giantJackie, .display-4{
+            color:wheat;
+            font-size: 70px;
+            text-align:center;
+            font-family: 'Secular One', sans-serif;
+          
+            font-stretch: expanded;
+            
+        }
+        .lead, .leadSize, .email {
+            font-size: 20px;
+            margin-left: -1px;
+        }
+
+        .email{
+            font-size: 16px;
+        }
+      
+      .wrapper {
+        width: 700px;
+      }
+    }
+      
+   
